@@ -1,19 +1,27 @@
 body {
-    background: darksalmon;
+    background: mediumslateblue;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
 .assignment{
     display:flex;
     padding:10px;
+    margin: 10px;
+    background: thistle;
 }
 
 .assignment img{
     width: 300px;
- 
+    border: 2px solid #719ADE;
+    margin-right: 20px;
 }
 
 h1 {
-    color: honeydew;
+    color: navy;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: slateblue;
 }
